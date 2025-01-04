@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DudeShape</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/null.css" />
+    <link rel="stylesheet" href="./css/null.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
   </head>
 
   <body>
@@ -30,7 +30,16 @@
             </ul>
           </nav>
           <div class="search__wrapper">
-            <img class="element" src="./img/Burger.svg" alt="menu" />
+            <input class="menu__toggle" id="menu__toggle" type="checkbox" />
+            <label class="burger" for="menu__toggle">
+              <span class="burger__element"></span>
+            </label>
+            <ul class="burger__menu">
+              <li class="burger__item"><a class="burger__a" href="#">Home</a></li>
+              <li class="burger__item"><a class="burger__a" href="#">About</a></li>
+              <li class="burger__item"><a class="burger__a" href="#">Feathures</a></li>
+              <li class="burger__item"><a class="burger__a" href="#">Contact</a></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -403,7 +412,7 @@
             </div>
             <div class="furniture__wrapper__low">
               <div class="card">
-                <img src="./img/Rectangle 34.png" />
+                <img class="rectangle" src="./img/Rectangle 34.png" />
                 <div class="card__info">
                   <div class="price">
                     <p class="price__p">White Swan Chair</p>
@@ -1107,6 +1116,7 @@
       </section>
     </main>
     <footer class="footer">
+      <div class="container">
       <div class="footer__top">
         <div class="block__follow">
           <h3 class="footer__h3">DudeShape</h3>
@@ -1175,6 +1185,7 @@
           </div>
         </div>
       </div>
+    </div>
       <div class="footer__low">
         <p class="footer__low__text">Copyright @ 2021. Crafted with love.</p>
       </div>

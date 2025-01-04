@@ -1,0 +1,74 @@
+.trusted__h2 {
+    font-family: DMSans;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #244d4d;
+}
+
+.icons {
+   margin-top: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 30px 100px;
+}
+
+.icons svg {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+@media(max-width: 992px) {
+    .icons {
+        gap: 30px 100px;
+    }
+}
+
+@media(max-width: 992px) {
+    .pay {
+        margin: 70px 0;
+    }
+}
+
+.pay__wrapper {
+    margin-top: 140px;
+    text-align: center;
+}
+
+@media(max-width: 992px) {
+    .pay__wrapper {
+        margin-top: 70px;
+    }
+}
+
+.mastercard {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.airbnb {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.uber {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.paypal {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.visa {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.stripe {
+    flex-grow: 1;
+    flex-shrink: 1;
+}

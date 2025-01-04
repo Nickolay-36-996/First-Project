@@ -1,0 +1,209 @@
+.footer {
+    background-color: #305f64;
+    margin-top: 140px;
+}
+
+@media(max-width: 992px) {
+    .footer {
+        margin-top: 70px;
+    }
+}
+
+.footer__top {
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+    padding-right: 133px;
+    padding-top: 103px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+}
+
+@media(max-width: 992px) {
+    .footer__top {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 40px;
+    }
+    .block__follow {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+    }
+    .block__take {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+    }
+    .block__company {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+    }
+    .subscribe__footer {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+    }
+
+}
+
+.footer__h3 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.footer__p {
+    font-family: DMSans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    width: 308px;
+    margin-top: 24px;
+}
+
+@media(max-width: 992px) {
+    .footer__p {
+        width: initial;
+    }
+}
+
+.follow {
+    margin-top: 40px;
+}
+
+.follow__h3 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.follow__share{
+    width: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 21px;
+}
+
+.share__img {
+    width: 27px;
+    height: 27px;
+}
+
+.h3__take {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.shares__take {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.take__a {
+    font-family: DMSans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.h3__company {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.shares__company {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+    list-style-type: none;
+}
+
+.shares__a {
+    font-family: DMSans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.subscribe__footer__h3 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.subscribe__footer__p {
+    font-family: DMSans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    width: 240px;
+    margin-top: 24px;
+}
+
+.footer__low__text {
+    font-family: DMSans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer__low {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #407980;
+}
+
+.footer__email {
+    background-color: white;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.footer__button {
+    position: absolute;
+    right: 12px;
+    bottom: 9px;
+    width: 28px;
+    height: 28px;
+    background-color: white;
+}
+
+.address {
+    font-family: DMSans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #859395;
+    padding-left: 22px;
+}
